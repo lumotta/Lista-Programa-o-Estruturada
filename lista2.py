@@ -186,3 +186,92 @@ elif (i > j and i > k and k > j):
     print(f"{i} > {k} > {j}")
 elif (j > i and j > k and i > k):
     print(f"{j} > {i} > {k}")
+elif (j > k and j > i and k > i):
+    print(f"{j} > {k} > {i}")
+elif (k > i and k > j and i > j):
+    print(f"{k} > {i} > {j}")
+elif (k > j and k > j and j > i):
+    print(f"{k} > {j} > {i}")
+else:
+    print("Valor inválido")
+
+
+# Exer 14
+#  Escreva um programa em Python que leia 3 valores (considere 
+# que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
+i = float(input("Digite 1° valor: "))
+j = float(input("Digite 2° valor: "))
+k = float(input("Digite 3° valor: "))
+
+if (i > j and i > k and j > k):
+    print(f"{i} > {j} > {k}")
+    print(f"{i} + {j} = {i + j}")
+elif (i > j and i > k and k > j):
+    print(f"{i} > {k} > {j}")
+    print(f"{i} + {k} = {i + k}")
+elif (j > i and j > k and i > k):
+    print(f"{j} > {i} > {k}")
+    print(f"{j} + {i} = {j + i}")
+elif (j > k and j > i and k > i):
+    print(f"{j} > {k} > {i}")
+    print(f"{j} + {k} = {j + k}")
+elif (k > i and k > j and i > j):
+    print(f"{k} > {i} > {j}")
+    print(f"{k} + {i} = {k + i}")
+elif (k > j and k > i and j > i):
+    print(f"{k} > {j} > {i}")
+    print(f"{k} + {j} = {k + j}")
+else:
+    print("Valor inválido")
+
+
+
+# Exer 15
+# 15) Escreva um programa em Python que leia 3 valores (A, B e C) 
+# representando as medidas dos lados de um triângulo e escrever se 
+# formam ou não um triângulo. OBS: para formar um triângulo, o valor 
+# de cada lado deve ser menor que a soma dos outros 2 lados.
+
+_a = float(input("Digite lado A: "))
+_b = float(input("Digite lado B: "))
+_c = float(input("Digite lado C: "))
+
+if (
+    _a + _b > _c
+    and _a + _c > _b
+    and _b + _c > _a
+):
+    print("Formam um Triângulo")
+else:
+    print("Ñ Formam um Triângulo")
+
+
+# Exer 16
+# Escreva um algoritmo que leia as idades de 2 homens e de 2 mulheres 
+# (considere que as idades dos homens serão sempre diferentes entre si, 
+# bem como as das mulheres). Calcule e escreva a soma das idades do homem 
+# mais velho com a mulher mais nova, e o produto das idades do homem mais 
+# novo com a mulher mais velha
+
+h1 = int(input())
+h2 = int(input())
+m1 = int(input())
+m2 = int(input())
+
+
+if h1 > h2:
+    if m1 > m2:
+        print(f"A soma das idades do homem mais velho com a mulher mais nova: {h1 + m2}")
+        print(f"O produto das idades do homem mais novo com a mulher mais velha: {h2 * m1}")
+    else:
+        print(f"A soma das idades do homem mais velho com a mulher mais nova: {h1 + m1}")
+        print(f"O produto das idades do homem mais novo com a mulher mais velha: {h2 * m2}")
+
+else:
+    if m1 > m2:
+        print(f"A soma das idades do homem mais velho com a mulher mais nova: {h2 + m2}")
+        print(f"O produto das idades do homem mais novo com a mulher mais velha: {h1 * m1}")
+    else:
+        print(f"A soma das idades do homem mais velho com a mulher mais nova: {h2 + m1}")
+        print(f"O produto das idades do homem mais novo com a mulher mais velha: {h1 * m2}")
