@@ -254,10 +254,10 @@ else:
 # mais velho com a mulher mais nova, e o produto das idades do homem mais 
 # novo com a mulher mais velha
 
-h1 = int(input())
-h2 = int(input())
-m1 = int(input())
-m2 = int(input())
+h1 = int(input("Digite a Idade do homem 1: "))
+h2 = int(input("Digite a Idade do homem 2: "))
+m1 = int(input("Digite a Idade do mulher 1: "))
+m2 = int(input("Digite a Idade do mulher 2:"))
 
 
 if h1 > h2:
