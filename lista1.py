@@ -39,7 +39,7 @@ print(f"{m} m | {dm} dm | {cm} cm")
 # dade dessa pessoa expressa apenas em dias. Considerar ano
 # com 365 dias e mês com 30 dias.
 
-idade = int(input("Digite sua idade: "))
+idade = int(input("Digite sua idade em anos: "))
 
 mes = idade * 12
 dia = idade * 365
@@ -69,7 +69,7 @@ saldo = float(input("Digite seu saldo para o reajuste de 1%: "))
 
 reaj = saldo * 1.01
 
-print(f"Seu reajuste foi {reaj}")
+print(f"Seu reajuste foi R${reaj}")
 
 # Exer 7
 # Escreva um programa em python que leia número no formato CDU 
@@ -99,14 +99,14 @@ print(f"Seu número invertido é: {total}")
 # área:
 # diagonal:
 
-h = float(input("Digite a altura:"))
-b = float(input("Digite a base: "))
+h = float(input("Digite a altura do retângulo:"))
+b = float(input("Digite a base do retângulo: "))
 
-p = (b*2)+(h*2)
-a = b * h
-d = ((b)**2 + (h)**2)**(1/2)
+perimetro = (b*2)+(h*2)
+area = b * h
+diagonal = ((b)**2 + (h)**2)**(1/2)
 
-print(f"perimetro: {p} | área: {a} u² | diagonal: {d} u")
+print(f"perimetro: {perimetro} | área: {area} u² | diagonal: {diagonal} u")
 
 
 
@@ -114,9 +114,9 @@ print(f"perimetro: {p} | área: {a} u² | diagonal: {d} u")
 # Escreva um programa em python que calcule e imprima a área 
 # de um triângulo
 
-h = float(input("Digite a altura:"))
-b = float(input("Digite a base: "))
+hTr = float(input("Digite a altura do triângulo:"))
+bTr = float(input("Digite a base do triângulo: "))
 
-a = (b * h)/2
+areaTr = (bTr * hTr)/2
 
-print(f"Sua área é {a} u²")
+print(f"Sua área é {areaTr} u²")
