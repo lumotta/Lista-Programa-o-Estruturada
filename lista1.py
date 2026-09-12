@@ -50,8 +50,8 @@ print(f"Sua idade em dias: {dia} dias")
 
 # Exer 5
 # Escreva um programa em python que entre com dois números 
-# reais e imprima a média aritmética com a mensagem “média” 
-# antes do resultado.
+# reais e imprima a média aritmética com a mensagem “média” antes 
+# do resultado.
 
 x = float(input("Digite primeiro número real: "))
 y = float(input("Digite segundo número real: "))
