@@ -101,8 +101,7 @@ else:
 # Exer 8
 # Faça um programa que mostre ao usuário um menu com 4 opções de operações matemáticas 
 # (as básicas, por exemplo). O usuário escolherá uma das opções e o programa então 
-# pedirá dois valores numéricos e realizará a operação, mostrando o resultado 
-# e finalizando o programa.
+# pedirá dois valores numéricos e realizará a operação, mostrando o resultado e finalizando o programa.
 
 num1 = float(input("Digite o primeiro valor: "))
 op = input("Digite o sinal da operação(+, -, *, /): ")
