@@ -146,8 +146,7 @@ else:
 # Exer 11
 #Escreva um programa em Python que leia o valor de um ano e i
 # nforma se este ano é bissexto ou não. Obs: Um ano é bissexto 
-# se ele for divisível por 400 ou se ele for divisível por 4
-# e não por 100.
+# se ele for divisível por 400 ou se ele for divisível por 4 e não por 100.
 
 ano = int(input("Digite um ano para verificar se é um ano bissexto: "))
 
